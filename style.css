@@ -7,7 +7,9 @@ body{
     background-color: #1F2937; 
     display: flex;
     justify-content: space-between;
-    padding: 0 48px;
+    align-items: center;
+    padding: 0 96px;
+    gap: 32px;
 }
 
 .header .headertext {
@@ -33,12 +35,12 @@ ul {
 }
 
 .firstsection {
-    padding: 40px 48px;
+    padding: 40px 96px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
-
+    gap: 96px;
 }
 
 .firstsection img {
@@ -77,17 +79,99 @@ ul {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    padding-bottom: 32px;
 }
 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
+    flex: 0 0 auto;
 }
 
-.box {
-    border: 2px #3882f6;
+.boxes .box {
+    border: 2px solid #3882f6;
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: white;
 }
+
+.subtext {
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
+    font-style: italic;
+    width: 150px;
+}
+
+.thirdsection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 72px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 500px;
+}
+#quotesource {
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.fourthsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 96px;
+}
+
+.bluebox {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 16px 76px;
+    width: 750px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #f9faf8;
+}
+#boldtext {
+    font-weight: bold;s
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+
+}
+
+.button2 {
+    background-color: #3882f6;
+    border: solid;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+}
+
