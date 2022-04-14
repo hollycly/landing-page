@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937; 
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.header .headertext {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.firstsection {
+    padding: 40px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+.firstsection img {
+    width: 300px;
+}
+
+.firstsection .intro   {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    margin-top: 8px;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 48px;
+}
+
+.randominfo {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
